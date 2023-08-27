@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{6444C928-159A-4223-88B4-55DF028B17C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{3DCA047E-3AD2-43B5-8940-75C95DA28556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{EBC83F96-6EAB-4184-8778-6BF9C29CA59C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CD99FBD8-97A2-4248-BE08-F3B58ACC0117}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3B206CA-D211-4320-9AA3-E902AE8BB520}"
+	ProjectSection(SolutionItems) = preProject
+		Steps.txt = Steps.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{A345CD10-F79F-43C6-9364-1749E9FE9524}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A345CD10-F79F-43C6-9364-1749E9FE9524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A345CD10-F79F-43C6-9364-1749E9FE9524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A345CD10-F79F-43C6-9364-1749E9FE9524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A345CD10-F79F-43C6-9364-1749E9FE9524}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A345CD10-F79F-43C6-9364-1749E9FE9524} = {CD99FBD8-97A2-4248-BE08-F3B58ACC0117}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE54B5E7-5CE0-4232-B702-F037C4FD0953}
+	EndGlobalSection
+EndGlobal

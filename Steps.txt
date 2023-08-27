@@ -1,0 +1,12 @@
+Create Folders
+FrontEnd for making FrontEnd calls
+Gateway for routing api calls
+Integration for making messsaging services
+Service : all diff micro service exist here
+
+Now first Coupon APIs
+Add models
+add models dto
+add automapper for dto conversion
+
+
