@@ -8,4 +8,8 @@ public class CouponDto
         public double DiscountAmount { get; set; }
         public int MinAmount { get; set; }
 
+    public static implicit operator string(CouponDto v)
+    {
+        throw new NotImplementedException();
+    }
 }
